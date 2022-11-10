@@ -20,7 +20,7 @@ while True:
 				print("Show products")
 				print("-----------------------------------")
 				for n in range(0,counter,1):
-					print(str(stock[n][0])+"- "+stock[n][1]+" has: "+str(stock[n][3])+"each costs: "+str(stock[n][2]))
+					print(str(stock[n][0])+"- "+stock[n][1]+" has: "+str(stock[n][3])+" each costs: "+str(stock[n][2]))
 				print("-----------------------------------")
 			elif cus_s == 2:
 				print("Buy products")
@@ -41,7 +41,7 @@ while True:
 				print("Print your bill")
 				print("-----------------------------------")
 				for n in range(0,cus_counter,1):
-					print(str(cus_list[n][0])+"- "+cus_list[n][1]+" has: "+str(cus_list[n][3])+"each costs: "+str(cus_list[n][2]))
+					print(str(cus_list[n][0])+"- "+cus_list[n][1]+" has: "+str(cus_list[n][3])+" each costs: "+str(cus_list[n][2]))
 				print("-----------------------------------")
 			elif cus_s == 0:
 				print("Thank you for your time.")
@@ -70,7 +70,7 @@ while True:
 				print("Show products")
 				print("-----------------------------------")
 				for n in range(0,counter,1):
-					print(str(stock[n][0])+"- "+stock[n][1]+" has: "+str(stock[n][3])+"each costs: "+str(stock[n][2]))
+					print(str(stock[n][0])+"- "+stock[n][1]+" has: "+str(stock[n][3])+" each costs: "+str(stock[n][2]))
 				print("-----------------------------------")
 			elif owner_s == 3:
 				print("Add cost")
